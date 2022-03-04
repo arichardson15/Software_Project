@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FirstScreen">
+   <children>
+      <PasswordField layoutX="226.0" layoutY="224.0" />
+      <Button fx:id="submitButton" layoutX="274.0" layoutY="267.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit" />
+      <TextField layoutX="226.0" layoutY="188.0" />
+      <Label layoutX="156.0" layoutY="190.0" text="Username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="227.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitBtn" layoutX="20.0" layoutY="351.0" mnemonicParsing="false" onAction="#onExitBtn" text="Exit" />
+      <Button fx:id="skipBtn" layoutX="534.0" layoutY="351.0" mnemonicParsing="false" onAction="#onSkipBtn" text="Skip" />
+   </children>
+</AnchorPane>
